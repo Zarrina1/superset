@@ -1,0 +1,9 @@
+Hello everyone!
+I have Superset version 2.1.0
+I need to give access for some roles only for particular dashboards.
+I have an issue while giving access to gamma role on particular dataset .
+Normal situation is when I give datasource access to  Gamma role. So after that Gamma-user can see dashboards where «my_dataset» was used as source and also Gamma user can see «my_dataset» in Dataset folder .This thing works with only some datasets .
+So another problem situation is when I give datasource access to  Gamma role but on another dataset (for ex- «dataset2» ) and dataset2 is used in some dashboards .
+This dashboards are not been displayed at all for the gamma-user but the user can see «dataset2» in Dataset folder .But no dashboards !
+Why are dashboards been shown only with some datasets? 
+Is this bug? Or maybe somebody knows how to solve this issue? Thank you !
